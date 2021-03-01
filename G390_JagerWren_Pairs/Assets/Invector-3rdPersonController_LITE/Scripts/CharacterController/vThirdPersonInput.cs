@@ -4,7 +4,9 @@ namespace Invector.vCharacterController
 {
     public class vThirdPersonInput : MonoBehaviour
     {
-        #region Variables       
+        #region Variables     
+
+        public GameObject otherPlayer;  
 
         [Header("Controller Input")]
         public string horizontalInput = "Horizontal";
@@ -85,6 +87,9 @@ namespace Invector.vCharacterController
         {
             cc.input.x = Input.GetAxis(horizontalInput);
             cc.input.z = Input.GetAxis(verticallInput);
+            if(Mathf.Abs(gameObject.transform.position.z-otherPlayer.transform.position.z)>0.1&&cc.input.z>0){
+                cc.input.z = 0;
+            }
         }
 
         protected virtual void CameraInput()
