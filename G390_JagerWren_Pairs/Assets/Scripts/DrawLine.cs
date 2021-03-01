@@ -28,6 +28,8 @@ public class DrawLine : MonoBehaviour
     //sets the line start and end positions
     void SetPosition()
     {
+        start.y += 1;
+        end.y += 1;
         lr.SetPosition(0, start);
         lr.SetPosition(1, end);
     }
