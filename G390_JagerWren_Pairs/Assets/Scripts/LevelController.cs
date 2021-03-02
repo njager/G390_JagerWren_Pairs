@@ -21,28 +21,28 @@ public class LevelController : MonoBehaviour
             Application.Quit();
         }
 
-        /*if (Input.GetKey(KeyCode.R))
+        if (Input.GetKey(KeyCode.R))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }*/
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Level 1 End"))
         {
-            SceneManager.LoadScene("Level2");
             audioSource.PlayOneShot(cheerSFX);
+            SceneManager.LoadScene("Level2");
         }
         if (other.CompareTag("Level 2 End"))
         {
-            SceneManager.LoadScene("Level3");
             audioSource.PlayOneShot(cheerSFX);
+            SceneManager.LoadScene("Level3");
         }
         if (other.CompareTag("Level 3 End"))
         {
-            SceneManager.LoadScene("Level1");
             audioSource.PlayOneShot(cheerSFX);
+            SceneManager.LoadScene("Level1");
         }
     }
 }

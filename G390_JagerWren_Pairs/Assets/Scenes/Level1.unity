@@ -2919,6 +2919,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1257446321}
+    - target: {fileID: 6436428753196152900, guid: 9d3072f95a9940b4d826687b9b9194c5,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6436428753196152901, guid: 9d3072f95a9940b4d826687b9b9194c5,
         type: 3}
       propertyPath: m_Mesh
@@ -4881,7 +4886,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2342
+  m_Name: pb_Mesh-8094
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

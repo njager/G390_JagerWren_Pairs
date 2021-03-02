@@ -3386,7 +3386,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-34340
+  m_Name: pb_Mesh-13832
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4426,7 +4426,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-61040
+  m_Name: pb_Mesh32292
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14492,6 +14492,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 214081771}
+    - target: {fileID: 6436428753196152900, guid: 9d3072f95a9940b4d826687b9b9194c5,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6436428753196152901, guid: 9d3072f95a9940b4d826687b9b9194c5,
         type: 3}
       propertyPath: m_Mesh
@@ -21002,7 +21007,7 @@ Transform:
   m_GameObject: {fileID: 1736747929}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -20, y: 1, z: 34}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1508034}
   m_RootOrder: 9
@@ -21953,7 +21958,7 @@ GameObject:
   - component: {fileID: 1784234832}
   m_Layer: 0
   m_Name: LrvelEnding
-  m_TagString: Level 2 End
+  m_TagString: Level 3 End
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
